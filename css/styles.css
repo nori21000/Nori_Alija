@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(233, 203, 167);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  border-bottom: 3px solid red;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+a:link {
+  color: red;
+}
+a :visited {
+  color: green;
+}
+a:hover {
+  color: blue;
+}
+img {
+  border: 1px solid red;
+  padding: 10px;
+  width: 250px;
+  opacity: 0.5;
+}
