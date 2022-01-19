@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(230, 166, 166);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  border-bottom: 3px rgb(15, 1, 1);
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+a:link {
+  color: rgb(4, 85, 109);
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: blue;
+}
+img {
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  width: 250px;
+  opacity: 0.5;
+}
