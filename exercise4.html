@@ -35,16 +35,30 @@
         flex-direction: column;
         flex-wrap: wrap;
       }
+      .flexContainer > p {
+        float: left;
+        background-color: aqua;
+        width: 200px;
+        height: 850px;
+        margin: 10px;
+        flex-wrap: wrap;
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+      }
     </style>
   </head>
   <body>
     <header>
       <h1>Flex Box Examples</h1>
     </header>
+    <div class="flexContainer">
+        <p>This is a sidebar.</p>
 
     <section>
       <article>
         <h2>What is HTML?</h2>
+       
         <p>
           Hypertext Markup Language (HTML) is the standard markup language for
           documents that are designed to be displayed in a web browser. HTML is
